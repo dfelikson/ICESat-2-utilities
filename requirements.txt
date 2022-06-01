@@ -1,0 +1,5 @@
+h5py=2.8.0=py36h878fce3_3
+numpy=1.19.2=py36h456fd55_0
+numpy-base=1.19.2=py36hcfb5961_0
+numpydoc=1.1.0=py_0
+matplotlib=3.0.3=py36h54f8f79_0
