@@ -45,7 +45,7 @@ def read_xovers(xover_dir, verbose=False, wildcard='*', r_limits=[0, 1.e7], delt
     D=[]
     meta=[]
 
-    tile_re=re.compile('E(.*)_N(.*).h5')
+    tile_re=re.compile('/E(.*)_N(.*).h5')
     tiles=glob.glob(xover_dir+'/'+wildcard+'.h5')
     if verbose: print('Reading {:d} crossover tiles'.format(len(tiles)))
     for tile in tiles:
